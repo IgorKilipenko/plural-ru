@@ -59,6 +59,6 @@ function getNounPluralForm(a) {
     }
 }
 
-module.exports = getPluralNoun;
-module.exports.noun = getPluralNoun;
-module.exports.verb = getPluralVerb;
+export default getPluralNoun;
+export const noun = getPluralNoun;
+export const  verb = getPluralVerb;
